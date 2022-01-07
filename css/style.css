@@ -167,3 +167,20 @@ footer h4{
     line-height: 1.5em;
 
 }
+.p-animation{
+    animation: para 3s 1;
+}
+@keyframes para{
+    0%{
+        color: black;
+        margin-bottom: -30px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -30px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
