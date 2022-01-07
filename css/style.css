@@ -168,7 +168,7 @@ footer h4{
 
 }
 .p-animation{
-    animation: para 3s 1;
+    animation: para 5s 5;
 }
 
 @keyframes para{
