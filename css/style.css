@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(161, 252, 158);
+    height: 5em;
+}
+.logo{
+    margin-top: 11px;
+    margin-left: 50px;
+}
+.head-tag{
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.head-tag a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: rgb(9, 78, 9);
+    border: 2px solid rgb(8, 71, 8);
+    padding: 5px;
+    margin-right: 10px;
+}
+.head-tag a:hover{
+    background-color: rgb(7, 87, 14);
+    color: honeydew;
+}
+.myheading{
+    float: right;
+    margin-right: 580px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#abovecarousal{
+    position: absolute;
+    z-index: 10;
+    width: 40%;;
+    text-align: center;
+    margin-top: 260px;
+    margin-left: 30px;
+    color: cornsilk;
+}
+
+#abovecarousal span{
+    display: block;
+}
+.text1{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    animation: text 3s 1;
+}
+.text2{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 8px;
+}
+
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -30px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -30px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+
+.loginform{
+    position: absolute;
+    z-index: 13;
+    border: 2px solid whitesmoke;
+    background-color: rgb(121, 241, 121);
+    height: 25em;
+    padding: 5%;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.signuppage{
+    position: absolute;
+    z-index: 10;
+    width: 40%;
+    border: 2px solid white;
+    background-color: rgb(121, 241, 121);
+    height: 35em;
+    padding: 5%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.mapimage{
+    position: absolute;
+    z-index: 10;
+    margin-left: 66%;
+    margin-top: 100px;
+}
+
+.downspace{
+    background-color: black;
+}
+.p-box{
+    border: 5px solid white;
+    height: 38em;
+    background-color: rgb(161, 252, 158);
+    
+}
+.p-box p{
+    text-align: justify;
+    margin-top: 25px;
+}
+.p-box h5{
+    text-align: center;
+    text-decoration: underline;
+}
+.p-box a{
+    text-decoration: none;
+    color: blueviolet;
+}
+footer{
+    background-color: rgb(161, 252, 158);
+    height: 2em;
+
+}
+footer h4{
+    text-align: center;
+}
+
+.paragraph{
+    position: absolute;
+    z-index: 10;
+    border: 2px solid black;
+    margin-left: 60%;
+    margin-top: 100px;
+    margin-right: 10%;
+    height: 27em;
+    background:rgba(0,151,19,0.3);
+    color:whitesmoke;
+    font-weight: bold;
+    padding: 30px;
+    text-align: justify;
+
+}
+.myheading1 h2{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+.frontpage {
+    color: rgb(160, 203, 216);
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+.frontpage p{
+    text-align: justify;
+    padding: 40px;
+    line-height: 1.5em;
+
+}
