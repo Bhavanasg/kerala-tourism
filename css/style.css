@@ -3,7 +3,7 @@
     margin: 0;
 }
 header{
-    background-color: rgb(161, 252, 158);
+    background-color: rgb(232, 248, 253);
     height: 5em;
 }
 .logo{
@@ -30,7 +30,6 @@ header{
 .myheading{
     float: right;
     margin-right: 580px;
-    margin-top: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #abovecarousal{
