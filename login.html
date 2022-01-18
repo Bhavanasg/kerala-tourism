@@ -18,26 +18,23 @@
             <a href="districts.html">Districts</a>
             <a href="signup.html">Sign Up</a>
         </div>
-        <!--<h2 class="myheading">Welcome To Kerala!!!</h2>-->
     </header>
-   
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            
             <div class="loginform">
-                <form action="#">
+                <form action="districts.html" onsubmit="return loginvalidate()">
                     <h2>User Login</h2>  
                     <br/>
                     <div>
                       <label>Email id</label><br>
-                      <input type="email" placeholder="Enter your email id">
-                    </div><br>
+                      <input type="email" id="email" placeholder="Enter your email id">
+                    </div><br><label id="error"></label>
                     <div>
-                      <label>Password</label><br>
-                      <input type="password" placeholder="Enter your password">
+                    <label>Password</label><br>
+                      <input type="password" id="password" placeholder="Enter your password">
                     </div> <br>
                     <div>
-                      <button id="login-button">LogIn</button>
+                      <button type="submit" id="login-button">Login</button>
                     </div><br>
                     <br>
                     <div>
@@ -65,5 +62,6 @@
       <footer>
         <h4>Copyright@2022</h4>
       </footer>
+      <script src="script.js"></script>
 </body>
 </html>
