@@ -97,16 +97,16 @@ function StrengthChecker(PasswordParameter){
 
 password.addEventListener("input", () => {
 
-    //The badge is hidden by default, so we show it
+    
 
     strengthBadge.style.display= 'block'
     clearTimeout(timeout);
 
-    //We then call the StrengChecker function as a callback then pass the typed password to it
+    
 
-    timeout = setTimeout(() => StrengthChecker(password.value), 200);
+    timeout = setTimeout(() => StrengthChecker(password.value), 500);
 
-    //Incase a user clears the text, the badge is hidden again
+    
 
     if(password.value.length !== 0){
         strengthBadge.style.display != 'block'
