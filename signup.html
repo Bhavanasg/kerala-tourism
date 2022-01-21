@@ -24,22 +24,24 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="signuppage">
-            <form class="row g-3">
+            <form class="row g-3" action="districts.html" onsubmit="return signvalidate()">
               <div>
                 <label>Email id</label><br>
-                <input class="emailbox" type="email" placeholder="Enter your email id">
+                <input class="emailbox" type="email" id="signemail" placeholder="Enter your email id">
               </div><br>
               <div>
-                <label>Password</label><br>
-                <input class="pwdbox" type="password" placeholder="Enter your password">
+                <label>Phone Number</label><br>
+                <input class="pwdbox" type="tel" id="signphone" placeholder="Mobile Number">
               </div> <br>
                 <div>
                   <label>Password</label><br>
-                  <input class="pwdbox" type="tel" placeholder="Re-Enter your Password">
+                  <input class="pwdbox" type="password" id="password1" placeholder="Enter your Password" onkeyup="return StrengthChecker()">
+                  <br>
+                  <span id="StrengthDisp" class="badge displayBadge"></span>
                 </div>
                 <div class="col-12">
-                  <label>Phone Number</label><br>
-                  <input type="text"  class="pwdbox" placeholder="Mobile Number">
+                  <label>Password</label><br>
+                  <input type="password"  class="pwdbox" id="password2" placeholder="Re-Enter your password">
                 </div>
                 <div class="col-12">
                   <label for="inputAddress2" class="form-label">Address </label>
@@ -86,5 +88,6 @@
       <footer>
         <h4>Copyright@2022</h4>
       </footer>
+      <script src="script.js"></script>
 </body>
 </html>
