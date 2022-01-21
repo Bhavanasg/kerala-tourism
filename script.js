@@ -104,7 +104,7 @@ password.addEventListener("input", () => {
 
     //We then call the StrengChecker function as a callback then pass the typed password to it
 
-    timeout = setTimeout(() => StrengthChecker(password.value), 500);
+    timeout = setTimeout(() => StrengthChecker(password.value), 200);
 
     //Incase a user clears the text, the badge is hidden again
 
